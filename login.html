@@ -36,7 +36,11 @@
         input{
             background: rgba(0,0,0,0.15);;
         }
-        
+        @media only screen and (max-width:300px) {
+            .box-area{
+                width: 200px;
+            }
+        }
     </style>
 
     <title>LogIn</title>
@@ -44,8 +48,8 @@
   </head>
   <body>
     
-    <div class="container d-flex justify-content-center align-items-center min-vh-100">
-        <div class="row  p-3  box-area">
+    <div class="container p-4 d-flex justify-content-center align-items-center min-vh-100">
+        <div class="row p-1  box-area">
 
             <div class="col-md-12 box ">
                 <div class="row align-items-center">
